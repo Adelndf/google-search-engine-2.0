@@ -1,0 +1,30 @@
+.headerLinks {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.headerLinks p {
+  color: var(--light-clr);
+}
+.headerLinks p:hover {
+  text-decoration: underline;
+  color: var(--white-clr);
+}
+.headerLinks svg {
+  font-size: 1.2rem;
+  color: var(--light-clr);
+}
+.headerLinks svg:hover {
+  color: var(--white-clr);
+}
+
+@media screen and (max-width: 768px) {
+  .headerLinks {
+    display: none;
+  }
+}
